@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Lesco Bill.css">
+</head>
+<body>
+    <div class="container" id="main">
+        <img id="mainImage" src="./Images/lesco-bill.jpg" alt=""><br><br>
+        <p>The process to check LESCO bill online has now become very easy with the “Lesco Bill” service. You can check all the bill details, amount, and due date completely free.</p>
+
+        <div id="checkBill">
+            <h6>PLEASE PROVIDE YOUR REFERENCE NUMBER</h6>
+            <input onclick="resetf()" type="number" id="rValue">
+            <select name="" id="">
+                <option value="">U</option>
+                <option value="">R</option>
+            </select>
+            <button onclick="checkBill()" type="submit">Customer Menu</button>
+            <button onclick="resetf()" type="reset">Reset</button>
+        </div>
+
+        <div class="headings">
+            <h2>How to Check LESCO Bill Online?</h2>
+        </div>
+
+        <p>To check Lesco duplicate bill online you will need to enter your reference number. The reference number is a combination of your batch number, sub-division number, reference number, and RU code.</p>
+        <img id="LescoNet" src="./Images/Lesco.net_.pk_.png" alt="">
+        <p>Once you have entered the reference number, click on the ‘Submit’ button, and your current LESCO bill will be displayed on the screen.</p>
+
+        <div class="headings">
+            <h2>LESCO Bill Online Check With Reference Number</h2>
+        </div>
+        <p>For customers preferring to use the reference number, insert the 15-digit reference number available on the top of your electricity bill. After hitting the submit button, the system will display your duplicate bill.</p>
+
+
+        <div class="headings">
+            <h2>Check Lesco Bill Online With Consumer ID</h2>
+        </div>
+        <p>Alternatively, by entering your 7-digit Consumer ID also found at the top of your electricity bill, you will receive your LESCO duplicate bill details.</p>
+
+        <div class="headings">
+            <h2>How to find the Reference Number or Customer ID of the Lesco bill?</h2>
+        </div>
+        <p>To find the reference number or customer ID of your LESCO bill, you can check your previous bills or the LESCO online portal. Here are the steps:</p>
+            
+            
+          <p><b>Previous Bills:</b> Check any of your previous LESCO bills. The reference number or customer ID is usually printed on the top right or left corner of the bill. It is a unique combination of numbers that identifies your LESCO account.</p>
+            
+           <p><b>LESCO Online Portal:</b> If you do not have a previous bill, you can visit the LESCO online portal and select the ‘View Bill’ option. Enter your 14-digit consumer number or provide your name and address details to search for your account. Once your account details are displayed, you can find your reference number or customer ID in the account summary.</p>
+            
+            <p><b>Customer Services Center:</b> If you are still unable to find your reference number or customer ID, you can visit any LESCO customer services center with a copy of your NIC or LESCO bill. The customer service representative will assist you in retrieving your reference number or customer ID.</p>
+        
+
+            <p>It is important to have your reference number or customer ID to check your LESCO bill online or make bill payments.</p>
+
+            <div class="headings">
+                <h2>LESCO Introduction</h2>
+            </div>
+            <p>LESCO stands for Lahore Electric Supply Company, which is an electric power distribution company operating in the city of Lahore and its surrounding areas in Pakistan.</p>
+            <p>LESCO is responsible for distributing electricity to over 4.5 million customers in its service area, which covers approximately 30,000 square kilometers. The company was established in 1998 as a result of the restructuring of Pakistan’s power sector and has since been providing reliable and affordable electricity to its customers.</p>
+            <p>LESCO is committed to ensuring an uninterrupted power supply to its customers and improving the efficiency and reliability of its distribution network through various measures, including technology upgrades and infrastructure development.</p>
+
+            <div class="headings">
+                <h2>Areas Under LESCO</h2>
+            </div>
+
+            <p>LESCO plays a significant role in powering the city of Lahore and its surrounding areas. The areas it serves are extensive and include:</p>
+
+            <ul>
+                <li>Lahore</li>
+                <li>Okara</li>
+                <li>Sheikhupura</li>
+                <li>Nankana</li>
+                <li>Kasur</li>
+            </ul>
+
+
+            <div class="headings">
+                <h2>LESCO Operation Circles</h2>
+            </div>
+
+            <table id="tbl">
+                <tr>
+                    <td><b>Circle No.</b></td>
+                    <td><b>Circle Name</b></td>
+                    <td><b>Divisions</b></td>
+                    <td><b>Sub-Division</b></td>
+                </tr>
+
+                <tr>
+                    <td><b>1</b></td>
+                    <td>North Lahore Circle</td>
+                    <td>5</td>
+                    <td>28</td>
+                </tr>
+
+                <tr>
+                    <td><b>2</b></td>
+                    <td>Central Lahore Circle</td>
+                    <td>5</td>
+                    <td>31</td>
+                </tr>
+
+                <tr>
+                    <td><b>3</b></td>
+                    <td>Eastern Lahore Circle</td>
+                    <td>4</td>
+                    <td>23</td>
+                </tr>
+
+                <tr>
+                    <td><b>4</b></td>
+                    <td>Okara Circle</td>
+                    <td>4</td>
+                    <td>23</td>
+                </tr>
+
+                <tr>
+                    <td><b>5</b></td>
+                    <td>South-Eastern Lahore Circle</td>
+                    <td>4</td>
+                    <td>26</td>
+                </tr>
+
+                <tr>
+                    <td><b>6</b></td>
+                    <td>Sheikhupura Circle</td>
+                    <td>4</td>
+                    <td>18</td>
+                </tr>
+
+                <tr>
+                    <td><b>7</b></td>
+                    <td>Kasur Circle</td>
+                    <td>5</td>
+                    <td>30</td>
+                </tr>
+
+                <tr>
+                    <td><b>8</b></td>
+                    <td>Nankana Circle</td>
+                    <td>4</td>
+                    <td>16</td>
+                </tr>
+            </table>
+
+
+            <div class="headings">
+                <h2>How to print and download LESCO Bill Online?</h2>
+            </div>
+            <p>After retrieving your bill online, a PDF file is generated. You can download this PDF file and subsequently print it using the print option in your PDF viewer (Ctrl + P).</p>
+
+
+            <div class="headings">
+                <h2>LESCO Bill Payment</h2>
+            </div>
+            <p>There are several ways to make LESCO bill payments in Pakistan. Users can opt for any convenient way to pay Lesco bill.</p>
+
+
+            <div class="headings">
+                <h2>LESCO Bill Online Payment</h2>
+            </div>
+            <p>LESCO offers an online bill payment service, which enables customers to pay their bills through the LESCO website or mobile app. Customers can use their credit/debit cards, mobile wallets, or Internet banking to make online payments.</p>
+
+
+            <div class="headings">
+                <h2>LESCO Bill Payment with Bank</h2>
+            </div>
+            <p>Customers can pay their LESCO bills by visiting any designated bank branch and submitting the bill amount at the counter. Payments can be made through cash, cheques, or online banking.</p>
+
+
+            <div class="headings">
+                <h2>LESCO Bill Payment with EasyPaisa/JazzCash</h2>
+            </div>
+            <p>LESCO also allows customers to pay their bills through EasyPaisa or JazzCash mobile wallets. Customers can simply enter their reference number and the bill amount in their mobile app and make the payment.</p>
+
+
+            <div class="headings">
+                <h2>Bill Payment with ATM</h2>
+            </div>
+            <p>Customers can also pay their LESCO bills through designated ATMs of selected banks.</p>
+
+
+            <div class="headings">
+                <h2>Bill Payment at Customer Services Centers</h2>
+            </div>
+            <p>Customers can visit any LESCO customer services center and pay their bills through cash, cheque, or credit/debit card.</p>
+
+
+            <div class="headings">
+                <h2>Bill Payment with Mobile Banking</h2>
+            </div>
+            <p>Customers can use their bank’s mobile app to pay their LESCO bills through online banking.</p>
+            <p>Customers can choose any of the above methods to make their <a href="https://en.wikipedia.org/wiki/Lahore_Electric_Supply_Company">LESCO</a> bill payment at their convenience.</p>
+
+
+            <div class="headings">
+                <h2>LESCO Tariff</h2>
+            </div>
+            <p>Lesco electricity tariff, a crucial aspect of Lahore’s energy landscape, plays a pivotal role in shaping the power consumption dynamics for both households and businesses. Lesco’s transparent tariff structure is designed to empower consumers with control over their energy expenses while fostering a sustainable and electrifying future for the city.</p>
+
+            <img id="tarriff" src="./Images/Lesco-tarriff.jpg" alt="">
+
+
+            <div class="headings">
+                <h2>How to access and use LESCO Helpline?</h2>
+            </div>
+            <p>Accessing and using the LESCO Helpline is very simple and easy. The helpline is available 24/7, and you can call anytime to get assistance with your LESCO-related queries.</p>
+            <h3>Lesco complaint numbers:</h3>
+            <ul>
+                <li>111-000-118</li>
+                <li>(042) 35272443</li>
+            </ul>
+
+            <ul>
+                <li><b>Johar town: </b>(042) 35164041</li>
+                <li><b>Faisal town: </b>0320 0525511</li>
+                <li><b>Rustom park: </b>(042) 37460390</li>
+                <li><b>DHA Lahore: </b>(042) 3527244</li>
+            </ul>
+
+            <p><b>Helpline Number: </b>8118 118 100 99204801</p>
+
+            <p><b>Follow the Instructions: </b>Once you dial the LESCO Helpline, you will be prompted to select the language of your choice. After selecting the language, you will be guided through a series of options to choose from, depending on the nature of your query.</p>
+            <p><b>Speak to the Representative: </b>If you are unable to find the relevant option, you can speak to a customer service representative by pressing the relevant key on your phone.</p>
+            <p><b>Provide your Details: </b>When you speak to a customer service representative, you will be asked to provide your name, LESCO account number or reference number, and other details related to your query.</p>
+            <p><b>Get Assistance: </b>The customer service representative will assist you with your query and provide you with the necessary information or guidance.</p>
+
+            <p>By following these simple steps, you can easily access and use the LESCO Helpline to get assistance with your LESCO-related queries.</p>
+
+
+            <div class="headings">
+                <h2>LESCO SMS Service</h2>
+            </div>
+            <p>LESCO offers a free SMS service for providing electricity supply and billing information. Registering for this service is straightforward.</p>
+            <p>Visit the SMS registration page and select either Email only, SMS only, or both services, insert your 7-digit Consumer ID, mobile number, and email ID, and press the submit button.</p>
+
+
+            <div class="headings">
+                <h2>New Connection or Transfer Procedure</h2>
+            </div>
+            <p>Applying for a new connection or transferring an existing one with LESCO is a simple and transparent process. You can click here navigate to its “Applications” section, and submit your application directly online.</p>
+
+
+            <div class="headings">
+                <h2>New Connection or Transfer Procedure</h2>
+            </div>
+            <p>Additional information on identifiable peak hours for the year 2023 can dramatically help you manage your electricity consumption effectively, reducing the overall cost.</p>
+            
+            <table>
+                <tr>
+                    <td><b>PEAK / OFF-PEAK TIMINGS</b></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><b>Season</b></td>
+                    <td><b>Peak Timing</b></td>
+                    <td><b>Off-Peak Timing</b></td>
+                </tr>
+
+                <tr>
+                    <td>Dec to Feb</td>
+                    <td>5 PM to 9 PM</td>
+                    <td>Remaining 20 hours</td>
+                </tr>
+
+                <tr>
+                    <td>Mar to May</td>
+                    <td>6 PM to 10 PM</td>
+                    <td>-do-</td>
+                </tr>
+
+                <tr>
+                    <td>Jun to Aug</td>
+                    <td>7 PM to 11 PM</td>
+                    <td>-do-</td>
+                </tr>
+
+                <tr>
+                    <td>Sep to Nov</td>
+                    <td>6 PM to 10 PM</td>
+                    <td>-do-</td>
+                </tr>
+            </table>
+
+
+            <div class="headings">
+                <h2>Instructions for Saving Lesco Bill And Reducing Consumption</h2>
+            </div>
+            <p>Saving your LESCO Bill and lowering your electricity consumption is one key to effective resource management. This process involves practical steps including switching to energy-efficient appliances. Appliances with high energy-efficiency ratings use less electricity and therefore decrease overall usage.</p>
+            <p>Next, remember to turn off lights and unplug devices when not in use. Even when idle, some devices still consume energy, so unplugging can lead to considerable savings. Focusing on reducing peak-hour consumption can also decrease your bill, as rates during these high-demand periods are usually higher.</p>
+            <p>Finally, regular maintenance of your electric devices can ensure they’re working at optimum efficiency, thereby consuming less energy. Understanding and implementing these instructions can result in noticeable savings on your Lesco Bill.</p>
+
+
+            <div class="headings">
+                <h2>How to Check Load Shedding Schedule LESCO Bill online 2024?</h2>
+            </div>
+            <p>The Load Shedding Schedule is a vital tool for consumers to effectively plan around power outages. To check this schedule for 2024 on the LESCO, you need to visit here. There, you’ll likely find a specific section or page devoted to the load-shedding schedule where you can view all the relevant details.</p>
+            <p>Keep in mind that the schedule might vary depending on your specific area. It’s also advised to regularly check the schedule as it can be subject to changes. Staying updated with the Load Shedding Schedule can help you organize your daily activities more smoothly and plan for any contingencies prompted by scheduled power outages in 2023.</p>
+
+
+            <div class="headings">
+                <h2>Register Complaint at CCMS against LESCO</h2>
+            </div>
+            <p>Customer Complaint Management System (CCMS) is a portal dedicated to handling customer complaints. Here, you can register concerns related to your LESCO Bill online.</p>
+            
+
+            <div class="headings">
+                <h2>How to Track Complaints against LESCO using CCMS</h2>
+            </div>
+            <p>Once you’ve registered a complaint, tracking it is straightforward. Using your Reference Number, the CCMS allows you to stay informed about the resolution process.</p>
+            
+
+            <div class="headings">
+                <h2>Extension of Due Date and LESCO Bill Installment Procedure</h2>
+            </div>
+            <p>Valuing the convenience of its customers, LESCO allows the flexibility of payment extensions and installment plans. These options can be selected through the LESCO online portal.</p>
+            
+
+            <div class="headings">
+                <h2>Taxes in LESCO Bill</h2>
+            </div>
+            <p>LESCO Bill includes various taxes such as F.C. Surcharge, FPA, TV FEE, QUARTERLY TARIFF ADJUSTMENT  (QTA), GST, and Electricity duty.</p>
+            
+
+            <div class="headings">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <h5>1. How can I check my LESCO Electricity bill paid status?</h5>
+            <p>Visit the LESCO official website, and enter your Bill Reference Number or Consumer ID to check your paid status.</p>
+            <h5>2. How can I calculate my Lesco bill?</h5>
+            <p>Bill calculating is easy and simple. Click here to calculate your bill online.</p>
+
+
+
+
+    </div>
+    <script src="./Lesco Bill.js"></script>
+</body>
+</html>

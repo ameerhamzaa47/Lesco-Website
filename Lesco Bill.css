@@ -1,0 +1,156 @@
+#main{
+    height: auto;
+    background-color: aliceblue;
+    width: 90%;
+}
+#checkBill{
+    width: 30%;
+    height: auto;
+    background-color: lightblue;
+    padding: 1%;
+}
+p{
+    width: 95%;
+    text-align: justify;
+    margin-left: 3%;
+}
+@media screen and (max-width:600px) {
+    #checkBill{
+        width: 100%;
+    }
+}
+@media screen and (min-width:548px) {
+    #checkBill{
+        width: 90%;
+    }
+}
+@media screen and (min-width:600px) {
+    #checkBill{
+        width: 90%;
+    }
+}
+@media screen and (min-width:768px) {
+    #checkBill{
+        width: 70%;
+    }
+}
+@media screen and (min-width:777px) {
+    #checkBill{
+        width: 60%;
+    }
+}
+@media screen and (min-width:992px) {
+    #checkBill{
+        width: 50%;
+    }
+}
+@media screen and (min-width:1000px) {
+    #checkBill{
+        width: 40%;
+    }
+}
+@media screen and (min-width:1400px) {
+    #checkBill{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #mainImage{
+        width: 100%;
+    }   
+}
+@media screen and (min-width:600px) {
+    #mainImage{
+        width: 100%;
+    }   
+}
+#checkBill input{
+    margin-left: 10%;
+}
+#checkBill button{
+    margin-top: 5%;
+    margin-left: 10%;    
+    background-color:#2b6cb0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 2%;
+    color: white;
+    font-weight: 600;
+}
+#checkBill button:hover{
+    background-color:#32b9e2;
+}
+.headings{
+    background-color: #32b9e2;
+    width: 95%;
+    margin: 2.5%;
+    padding: 1%;
+    text-align: center;
+}
+#LescoNet{
+    margin-left: 18%;
+    margin-bottom: 1%;
+}
+@media screen and (max-width:600px) {
+    #LescoNet{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media screen and (min-width:600px) {
+    #LescoNet{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media screen and (min-width:1000px) {
+    #LescoNet{
+        margin-left: 20%;
+        margin-bottom: 1%;
+        width: 50%;
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #tarriff{
+    margin-left: 25%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+  }
+@media screen and (max-width:600px) {
+    #tarriff{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media screen and (min-width:600px) {
+    #tarriff{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media screen and (min-width:1000px) {
+    #tarriff{
+        margin-left: 25%;
+        margin-bottom: 1%;
+        margin-top: 3%;
+        width: 50%;
+    }
+}
